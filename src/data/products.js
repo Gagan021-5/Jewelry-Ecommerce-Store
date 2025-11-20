@@ -1,0 +1,147 @@
+export const products = [
+  // New Arrivals
+  {
+    id: 1,
+    name: 'Delicate Pearl Choker',
+    category: 'new-arrivals',
+    subcategory: 'chokers',
+    price: 1299,
+    mrp: 2499,
+    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop',
+    description: 'Elegant pearl choker with gold-plated chain',
+    material: 'Gold-Plated',
+    occasion: 'Party Wear'
+  },
+  {
+    id: 2,
+    name: 'Rose Gold Hoops',
+    category: 'earrings',
+    subcategory: 'hoops',
+    price: 899,
+    mrp: 1799,
+    image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop',
+    description: 'Classic rose gold hoops with secure clasp',
+    material: 'Rose Gold',
+    occasion: 'Everyday Wear'
+  },
+  {
+    id: 3,
+    name: 'Minimalist Silver Ring',
+    category: 'rings',
+    subcategory: 'adjustable-rings',
+    price: 599,
+    mrp: 999,
+    image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=400&fit=crop',
+    description: 'Sleek adjustable silver band ring',
+    material: 'Sterling Silver',
+    occasion: 'Everyday Wear'
+  },
+  {
+    id: 4,
+    name: 'Layered Chain Necklace',
+    category: 'necklaces-pendants',
+    subcategory: 'layered-necklaces',
+    price: 1599,
+    mrp: 2999,
+    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop',
+    description: 'Triple-layer gold chain with delicate pendants',
+    material: 'Gold-Plated',
+    occasion: 'Party Wear'
+  },
+  {
+    id: 5,
+    name: 'Statement Jhumkas',
+    category: 'earrings',
+    subcategory: 'jhumkas',
+    price: 1199,
+    mrp: 2299,
+    image: 'https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=400&h=400&fit=crop',
+    description: 'Traditional oxidized jhumka earrings',
+    material: 'Oxidized',
+    occasion: 'Wedding & Festive'
+  },
+  {
+    id: 6,
+    name: 'Charm Bracelet Set',
+    category: 'bracelets-bangles',
+    subcategory: 'charm-bracelets',
+    price: 1399,
+    mrp: 2499,
+    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop',
+    description: 'Gold-plated charm bracelet with heart pendants',
+    material: 'Gold-Plated',
+    occasion: 'Everyday Wear'
+  },
+  {
+    id: 7,
+    name: 'Solitaire Engagement Ring',
+    category: 'rings',
+    subcategory: 'solitaire-rings',
+    price: 3999,
+    mrp: 6999,
+    image: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=400&fit=crop',
+    description: 'Classic solitaire ring with cubic zirconia',
+    material: 'Sterling Silver',
+    occasion: 'Wedding & Festive'
+  },
+  {
+    id: 8,
+    name: 'Initial Pendant Necklace',
+    category: 'necklaces-pendants',
+    subcategory: 'name-initial-pendants',
+    price: 999,
+    mrp: 1799,
+    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop',
+    description: 'Personalized initial pendant on gold chain',
+    material: 'Gold-Plated',
+    occasion: 'Everyday Wear'
+  },
+  {
+    id: 9,
+    name: 'Crystal Studs',
+    category: 'earrings',
+    subcategory: 'studs',
+    price: 699,
+    mrp: 1299,
+    image: 'https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=400&h=400&fit=crop',
+    description: 'Sparkling crystal stud earrings',
+    material: 'Sterling Silver',
+    occasion: 'Party Wear'
+  },
+  {
+    id: 10,
+    name: 'Boho Anklet',
+    category: 'anklets',
+    subcategory: 'beaded-anklets',
+    price: 499,
+    mrp: 899,
+    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop',
+    description: 'Beaded anklet with turquoise stones',
+    material: 'Silver-Plated',
+    occasion: 'Everyday Wear'
+  },
+  {
+    id: 11,
+    name: 'Bridal Jewelry Set',
+    category: 'sets-combos',
+    subcategory: 'bridal-sets',
+    price: 5999,
+    mrp: 9999,
+    image: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop',
+    description: 'Complete bridal set with necklace, earrings & maangtikka',
+    material: 'Gold-Plated',
+    occasion: 'Wedding & Festive'
+  },
+  {
+    id: 12,
+    name: "Men's Leather Bracelet",
+    category: 'mens-collection',
+    subcategory: 'mens-bracelets',
+    price: 899,
+    mrp: 1599,
+    image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&h=400&fit=crop',
+    description: 'Stylish leather bracelet with metal clasp',
+    material: 'Leather & Steel',
+    occasion: 'Everyday Wear'
+  }
+];
