@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Search, ShoppingBag, Menu, User, Heart } from 'lucide-react';
-import MegaMenu from './MegaMenu';
-import MobileMenu from './MobileMenu';
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { Search, ShoppingBag, Menu, User, Heart } from "lucide-react";
+import MegaMenu from "./MegaMenu";
+import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -19,11 +19,17 @@ const Navbar = () => {
                 Free shipping on orders above ₹999
               </div>
               <div className="flex items-center gap-4">
-                <Link to="/track-order" className="hover:text-foreground transition-colors">
+                <Link
+                  to="/track-order"
+                  className="hover:text-foreground transition-colors"
+                >
                   Track Order
                 </Link>
                 <span>|</span>
-                <Link to="/help" className="hover:text-foreground transition-colors">
+                <Link
+                  to="/help"
+                  className="hover:text-foreground transition-colors"
+                >
                   Help
                 </Link>
               </div>
@@ -32,8 +38,8 @@ const Navbar = () => {
         </div>
 
         {/* Main navbar */}
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-16">
+        <div className="container  mx-auto px-4">
+          <div className="flex items-center justify-between lg-justify-around h-16">
             {/* Mobile menu button */}
             <button
               onClick={() => setIsMobileMenuOpen(true)}
@@ -44,7 +50,7 @@ const Navbar = () => {
 
             {/* Logo */}
             <Link to="/" className="flex items-center">
-              <h1 className="text-2xl md:text-3xl font-bold gradient-primary bg-clip-text text-transparent">
+              <h1 class="text-2xl md:text-3xl font-bold bg-purple-900 bg-clip-text text-transparent">
                 Jewelique
               </h1>
             </Link>
@@ -57,17 +63,17 @@ const Navbar = () => {
               >
                 New Arrivals
               </Link>
-              
+
               {/* Categories with mega menu */}
               <div
                 className="relative group"
-                onMouseEnter={() => setActiveCategory('categories')}
+                onMouseEnter={() => setActiveCategory("categories")}
                 onMouseLeave={() => setActiveCategory(null)}
               >
                 <button className="px-4 py-2 text-sm font-medium hover:bg-accent rounded-lg transition-colors">
                   Shop by Category
                 </button>
-                {activeCategory === 'categories' && <MegaMenu />}
+                {activeCategory === "categories" && <MegaMenu />}
               </div>
 
               <Link
@@ -113,7 +119,10 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Menu */}
-      <MobileMenu isOpen={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />
+      <MobileMenu
+        isOpen={isMobileMenuOpen}
+        onClose={() => setIsMobileMenuOpen(false)}
+      />
     </>
   );
 };
